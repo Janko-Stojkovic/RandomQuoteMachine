@@ -1,7 +1,36 @@
 .App {
   text-align: center;
 }
-
+#quote-box{
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  flex-direction: column;
+  width: 24%;
+  margin: 150px auto;
+  text-align: center;
+  padding: 10px 50px;
+  border-radius: 10px;
+}
+#text{
+  font-size: 1.75em;
+  font-weight: 500;
+}
+#new-quote{
+  height: 38px;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    background-color: #333;
+    outline: none;
+    font-size: 0.85em;
+    padding: 8px 18px 6px 18px;
+    margin-top: 30px;
+    opacity: 1;
+    cursor: pointer;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
